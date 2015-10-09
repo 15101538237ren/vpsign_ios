@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A529E7ED1BC7E7AF00C76600 /* textFieldBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = A529E7EC1BC7E7AF00C76600 /* textFieldBackground.m */; settings = {ASSET_TAGS = (); }; };
 		A5CD1C261BC68E84003F6ECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CD1C251BC68E84003F6ECB /* main.m */; };
 		A5CD1C291BC68E84003F6ECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CD1C281BC68E84003F6ECB /* AppDelegate.m */; };
 		A5CD1C2C1BC68E84003F6ECB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CD1C2B1BC68E84003F6ECB /* ViewController.m */; };
 		A5CD1C2F1BC68E84003F6ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CD1C2D1BC68E84003F6ECB /* Main.storyboard */; };
 		A5CD1C321BC68E84003F6ECB /* VPSign.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5CD1C301BC68E84003F6ECB /* VPSign.xcdatamodeld */; };
 		A5CD1C341BC68E84003F6ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CD1C331BC68E84003F6ECB /* Assets.xcassets */; };
-		A5CD1C371BC68E84003F6ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CD1C351BC68E84003F6ECB /* LaunchScreen.storyboard */; };
 		A5CD1C421BC68E84003F6ECB /* VPSignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CD1C411BC68E84003F6ECB /* VPSignTests.m */; };
 		A5CD1C4D1BC68E85003F6ECB /* VPSignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CD1C4C1BC68E85003F6ECB /* VPSignUITests.m */; };
+		A5ECBA761BC69D2B0057DD1B /* ViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5ECBA781BC69D2B0057DD1B /* ViewController.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A528F5C21BC6998000A856AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		A529E7EB1BC7E7AF00C76600 /* textFieldBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = textFieldBackground.h; path = ../textFieldBackground.h; sourceTree = "<group>"; };
+		A529E7EC1BC7E7AF00C76600 /* textFieldBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = textFieldBackground.m; path = ../textFieldBackground.m; sourceTree = "<group>"; };
+		A5C750AC1BC69E180025A7CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		A5C750AE1BC69E190025A7CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ViewController.strings; sourceTree = "<group>"; };
+		A5C750AF1BC69E190025A7CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
 		A5CD1C211BC68E84003F6ECB /* VPSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CD1C251BC68E84003F6ECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5CD1C271BC68E84003F6ECB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,14 +52,16 @@
 		A5CD1C2E1BC68E84003F6ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5CD1C311BC68E84003F6ECB /* VPSign.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VPSign.xcdatamodel; sourceTree = "<group>"; };
 		A5CD1C331BC68E84003F6ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A5CD1C361BC68E84003F6ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A5CD1C381BC68E84003F6ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5CD1C3D1BC68E84003F6ECB /* VPSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CD1C411BC68E84003F6ECB /* VPSignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPSignTests.m; sourceTree = "<group>"; };
 		A5CD1C431BC68E85003F6ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5CD1C481BC68E85003F6ECB /* VPSignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPSignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CD1C4C1BC68E85003F6ECB /* VPSignUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPSignUITests.m; sourceTree = "<group>"; };
 		A5CD1C4E1BC68E85003F6ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5ECBA6E1BC69C580057DD1B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		A5ECBA711BC69C590057DD1B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Info.plist"; sourceTree = "<group>"; };
+		A5ECBA771BC69D2B0057DD1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/ViewController.strings; sourceTree = "<group>"; };
+		A5ECBA7A1BC69D3C0057DD1B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ViewController.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,14 +112,14 @@
 		A5CD1C231BC68E84003F6ECB /* VPSign */ = {
 			isa = PBXGroup;
 			children = (
-				A5CD1C271BC68E84003F6ECB /* AppDelegate.h */,
-				A5CD1C281BC68E84003F6ECB /* AppDelegate.m */,
+				A529E7EB1BC7E7AF00C76600 /* textFieldBackground.h */,
+				A529E7EC1BC7E7AF00C76600 /* textFieldBackground.m */,
+				A5ECBA781BC69D2B0057DD1B /* ViewController.strings */,
 				A5CD1C2A1BC68E84003F6ECB /* ViewController.h */,
 				A5CD1C2B1BC68E84003F6ECB /* ViewController.m */,
 				A5CD1C2D1BC68E84003F6ECB /* Main.storyboard */,
 				A5CD1C331BC68E84003F6ECB /* Assets.xcassets */,
-				A5CD1C351BC68E84003F6ECB /* LaunchScreen.storyboard */,
-				A5CD1C381BC68E84003F6ECB /* Info.plist */,
+				A528F5C31BC6998000A856AA /* Info.plist */,
 				A5CD1C301BC68E84003F6ECB /* VPSign.xcdatamodeld */,
 				A5CD1C241BC68E84003F6ECB /* Supporting Files */,
 			);
@@ -120,6 +129,8 @@
 		A5CD1C241BC68E84003F6ECB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A5CD1C271BC68E84003F6ECB /* AppDelegate.h */,
+				A5CD1C281BC68E84003F6ECB /* AppDelegate.m */,
 				A5CD1C251BC68E84003F6ECB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -229,8 +240,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				"zh-Hans",
+				en,
 			);
 			mainGroup = A5CD1C181BC68E84003F6ECB;
 			productRefGroup = A5CD1C221BC68E84003F6ECB /* Products */;
@@ -249,7 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CD1C371BC68E84003F6ECB /* LaunchScreen.storyboard in Resources */,
+				A5ECBA761BC69D2B0057DD1B /* ViewController.strings in Resources */,
 				A5CD1C341BC68E84003F6ECB /* Assets.xcassets in Resources */,
 				A5CD1C2F1BC68E84003F6ECB /* Main.storyboard in Resources */,
 			);
@@ -277,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5CD1C2C1BC68E84003F6ECB /* ViewController.m in Sources */,
+				A529E7ED1BC7E7AF00C76600 /* textFieldBackground.m in Sources */,
 				A5CD1C291BC68E84003F6ECB /* AppDelegate.m in Sources */,
 				A5CD1C321BC68E84003F6ECB /* VPSign.xcdatamodeld in Sources */,
 				A5CD1C261BC68E84003F6ECB /* main.m in Sources */,
@@ -315,20 +328,34 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A528F5C31BC6998000A856AA /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A528F5C21BC6998000A856AA /* Base */,
+				A5ECBA711BC69C590057DD1B /* zh-Hans */,
+				A5C750AF1BC69E190025A7CE /* en */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
 		A5CD1C2D1BC68E84003F6ECB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A5CD1C2E1BC68E84003F6ECB /* Base */,
+				A5ECBA6E1BC69C580057DD1B /* zh-Hans */,
+				A5C750AC1BC69E180025A7CE /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A5CD1C351BC68E84003F6ECB /* LaunchScreen.storyboard */ = {
+		A5ECBA781BC69D2B0057DD1B /* ViewController.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A5CD1C361BC68E84003F6ECB /* Base */,
+				A5ECBA771BC69D2B0057DD1B /* Base */,
+				A5ECBA7A1BC69D3C0057DD1B /* zh-Hans */,
+				A5C750AE1BC69E190025A7CE /* en */,
 			);
-			name = LaunchScreen.storyboard;
+			name = ViewController.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -420,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = VPSign/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buaa.edu.cn.11211005.VPSign;
@@ -431,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = VPSign/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buaa.edu.cn.11211005.VPSign;
@@ -505,6 +534,7 @@
 				A5CD1C531BC68E85003F6ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5CD1C541BC68E85003F6ECB /* Build configuration list for PBXNativeTarget "VPSignTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +543,7 @@
 				A5CD1C561BC68E85003F6ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5CD1C571BC68E85003F6ECB /* Build configuration list for PBXNativeTarget "VPSignUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +552,7 @@
 				A5CD1C591BC68E85003F6ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
