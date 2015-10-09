@@ -147,7 +147,7 @@
             </objects>
             <point key="canvasLocation" x="2126" y="1356"/>
         </scene>
-        <!--Item 1-->
+        <!--签到主页-->
         <scene sceneID="qZa-ZZ-UWX">
             <objects>
                 <viewController id="d8S-5W-Tz5" sceneMemberID="viewController">
@@ -162,7 +162,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="pld-pN-QEV"/>
-                    <navigationItem key="navigationItem" id="qRf-Ae-6QD"/>
+                    <navigationItem key="navigationItem" title="签到主页" id="qRf-Ae-6QD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vb3-Po-I1C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
